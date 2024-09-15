@@ -32,21 +32,21 @@ HAIRKRAFT is a web-based application that recommends personalized haircare produ
 
 ## Installation
 1. **Clone the repository**:
-   
+     ```bash
      git clone https://github.com/fazilahd/HAIRKRAFT.git
 
 2. **Set up the database**:
 
 * Import the hc.sql file into MySQL.
- 
+  ```bash
   mysql -u your_user -p your_database < hc.sql
 
 3. **Install dependencies**: Ensure that you have Python and MySQL installed, then run:
-
+     ```bash
      pip install -r requirements.txt
 
 4. **Run the application**: Start the server using:
-
+     ```bash
      python main.py
    
 ## Usage
